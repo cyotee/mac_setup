@@ -5,8 +5,10 @@
 brew tap jetbrains/utils
 brew install caskroom/cask/brew-cask
 
+brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt
 brew cask install java
 brew install go --cross-compile-common
+brew install node
 brew cask install iterm2
 brew cask install atom
 brew cask install virtualbox virtualbox-extension-pack
@@ -15,9 +17,7 @@ brew cask install jetbrains-toolbox
 brew cask install vagrant vagrant-manager
 
 brew cask install google-chrome
-brew cask install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt
 brew cask install vlc
-brew cask install node
 brew cask install gog-galaxy
 
 
