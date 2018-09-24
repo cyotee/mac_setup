@@ -19,5 +19,6 @@ brew cask install google-chrome
 brew cask install vlc
 brew cask install gog-galaxy
 brew cask isntall steam
+brew cask install tunnelblick
 brew cask install private-internet-access
 open -a "/usr/local/Caskroom/private-internet-access/81/Private Internet Access Installer.app"
