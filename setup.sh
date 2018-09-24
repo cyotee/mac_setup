@@ -1,10 +1,15 @@
 #!/bin/bash
 
+# Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew tap jetbrains/utils
+# Tap Homebrew Cask
 brew install caskroom/cask/brew-cask
 
+# Tab Jetbrains Homebrew repo
+brew tap jetbrains/utils
+
+# Install proper GNU Utils to replace Mac versions
 brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt
 brew cask install java
 brew install go --cross-compile-common
