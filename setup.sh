@@ -15,9 +15,9 @@ brew cask install virtualbox virtualbox-extension-pack
 brew cask install docker
 brew cask install jetbrains-toolbox
 brew cask install vagrant vagrant-manager
-
 brew cask install google-chrome
 brew cask install vlc
 brew cask install gog-galaxy
 
-
+brew cask install private-internet-access
+open -a "/usr/local/Caskroom/private-internet-access/81/Private Internet Access Installer.app"
