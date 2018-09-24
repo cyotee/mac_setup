@@ -1,0 +1,19 @@
+#!/bin/bash
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew tap jetbrains/utils
+brew install caskroom/cask/brew-cask
+
+brew cask install iterm2
+brew cask install atom
+brew cask install virtualbox virtualbox-extension-pack
+
+brew cask install docker
+brew cask install jetbrains-toolbox
+brew cask install vlc
+brew cask install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt
+brew cask install go
+brew cask install node
+
+brew cask install vagrant vagrant-manager
